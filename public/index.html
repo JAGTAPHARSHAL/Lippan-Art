@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5eee2">
+  <meta name="description" content="Discover handmade Lippan art — mirrorwork and mud art shaped by the craft traditions of Kutch.">
+  <title>Mitti & Mirror — Lippan art, made by hand</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body id="top">
+  <div class="announcement"><span>✳</span> Hand-shaped Lippan art · Made slowly, with care <span>✳</span></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Mitti and Mirror home"><span class="brand-mark">मि</span><span class="brand-copy"><strong>Mitti <i>&</i> Mirror</strong><small>THE ART OF LIPPAN</small></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="#collection">The collection</a><a href="#story">Our craft</a><a href="#journal">A note from Kutch</a></nav>
+    <div class="header-actions"><a class="track-link" href="#track">Track an order</a><button class="bag-button" id="bag-open" aria-label="Open shopping bag">Bag <span id="bag-count">0</span></button><button class="menu-toggle" id="menu-toggle" aria-label="Open menu">☰</button></div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> AN OLD CRAFT, A NEW HOME</p><h1 id="hero-heading">A little earth.<br><em>A little light.</em></h1><p class="hero-intro">Hand-shaped Lippan art, carrying the warmth of Kutch into the corners you call yours.</p><div class="hero-buttons"><a class="button button-dark" href="#collection">Explore the collection <span>↗</span></a><a class="text-link" href="#story">Meet the craft <span>↓</span></a></div><div class="hero-note"><span class="sun-stamp">✳</span><span>Each piece is made by hand.<br><b>No two are quite alike.</b></span></div></div>
+      <div class="hero-art-wrap"><div class="hero-halo"></div><div class="hero-art"><img src="/art/hero.svg" alt="Handmade inspired Lippan mandala with mirrors and terracotta detailing"></div><div class="art-caption"><span class="caption-dot"></span> THE DESERT SUN · ONE OF A KIND</div><div class="hero-side-note">MUD · MIRROR · MEMORY</div></div>
+      <div class="hero-index">01 <span></span> 04</div>
+    </section>
+
+    <div class="marquee" aria-label="Craft details"><div class="marquee-track"><span>HAND-SHAPED</span><i>✳</i><span>ROOTED IN KUTCH</span><i>✳</i><span>MIRROR BY MIRROR</span><i>✳</i><span>MADE TO BE KEPT</span><i>✳</i><span>HAND-SHAPED</span><i>✳</i><span>ROOTED IN KUTCH</span><i>✳</i><span>MIRROR BY MIRROR</span><i>✳</i><span>MADE TO BE KEPT</span><i>✳</i></div></div>
+
+    <section class="collection section-pad" id="collection">
+      <div class="section-heading"><div><p class="eyebrow">THE STUDIO SHELF <span class="eyebrow-line"></span></p><h2>Pieces with <em>a pulse.</em></h2></div><p class="section-aside">Thoughtful works for the in-between spaces.<br>Made in small batches, with a lot of care.</p></div>
+      <div class="filter-row"><div class="filter-chips" id="filters"><button class="filter active" data-filter="All pieces">All pieces</button><button class="filter" data-filter="Wall art">Wall art</button><button class="filter" data-filter="Small treasures">Small treasures</button></div><span class="results-count" id="results-count">CURATED BY HAND</span></div>
+      <div class="product-grid" id="product-grid"><div class="loading-state">Gathering a few good things…</div></div>
+      <div class="collection-note"><span>✳</span> A little variation is the signature of the hand. Your piece will be uniquely yours.</div>
+    </section>
+
+    <section class="craft" id="story">
+      <div class="craft-image"><img src="/art/craft.svg" alt="Illustration of hands shaping the raised mud lines of a Lippan artwork"><div class="image-label">FROM THE HANDS OF KUTCH</div></div>
+      <div class="craft-copy"><p class="eyebrow">EARTH, SHAPED WITH PATIENCE <span class="eyebrow-line"></span></p><h2>Made of the desert.<br><em>Made for your home.</em></h2><p>In the homes of Kutch, Lippan work began with mud and mirror: cool walls, reflected light, patterns shaped by memory. We honour that spirit in every piece we make.</p><p>Clay is pressed into small, winding forms. Mirrors catch the sun. And slowly, a flat surface becomes something with its own quiet presence.</p><a class="button button-outline" href="#journal">A little more about us <span>↗</span></a><div class="craft-flourish">ॐ</div></div>
+    </section>
+
+    <section class="values section-pad" id="journal"><p class="eyebrow centered">A SMALL STUDIO, A LONG MEMORY</p><div class="values-grid"><article><span class="value-number">01</span><h3>Made, never mass-made.</h3><p>Each curve is shaped by hand. Each mirror set one at a time.</p></article><article><span class="value-number">02</span><h3>Tradition with room to grow.</h3><p>Ancient motifs, meeting the colour and pace of today.</p></article><article><span class="value-number">03</span><h3>Sent with care.</h3><p>Carefully packed and sent from our little studio to your door.</p></article></div></section>
+
+    <section class="track-section" id="track"><div class="track-inner"><div><p class="eyebrow">A NOTE ON ITS WAY <span class="eyebrow-line"></span></p><h2>Where is your<br><em>piece now?</em></h2><p>Enter your order number and the email you used at checkout.</p></div><form class="track-form" id="track-form"><label>ORDER NUMBER<input name="orderId" placeholder="e.g. LIP_7F2A91C0D3" required autocomplete="off"></label><label>EMAIL ADDRESS<input type="email" name="email" placeholder="you@example.com" required></label><button class="button button-dark" type="submit">Find my order <span>↗</span></button><p class="form-message" id="track-message" aria-live="polite"></p><div id="track-result"></div></form></div><div class="track-ornament">✳</div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="brand brand-footer" href="/"><span class="brand-mark">मि</span><span class="brand-copy"><strong>Mitti <i>&</i> Mirror</strong><small>THE ART OF LIPPAN</small></span></a><p>Art shaped by earth.<br>Light, held in a mirror.</p><div class="footer-links"><a href="#collection">Shop the collection</a><a href="#track">Track an order</a><a href="/studio">Studio login ↗</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> MITTI & MIRROR</span><span>ROOTED IN KUTCH, INDIA</span><a href="#top">BACK TO THE SUN ↑</a></div></footer>
+
+  <div class="drawer-scrim" id="drawer-scrim"></div><aside class="bag-drawer" id="bag-drawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow">YOUR LITTLE COLLECTION</p><h2>The bag <span id="drawer-count">(0)</span></h2></div><button class="close-button" id="bag-close" aria-label="Close bag">×</button></div><div id="bag-items" class="bag-items"></div><div class="drawer-bottom"><div class="subtotal"><span>Subtotal</span><b id="bag-total">₹0</b></div><p>Delivery is included in the listed price.</p><button class="button button-dark checkout-button" id="checkout-open">Continue to details <span>↗</span></button><span class="secure-note">SECURE CHECKOUT · RAZORPAY</span></div></aside>
+
+  <div class="modal-scrim" id="checkout-scrim"><section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title"><div class="modal-top"><p class="eyebrow">JUST A FEW DETAILS</p><button class="close-button" id="checkout-close" aria-label="Close checkout">×</button></div><h2 id="checkout-title">Send it <em>home.</em></h2><p class="checkout-subtitle">Use this email with your order number to check its progress.</p><form id="checkout-form" class="checkout-form"><div class="form-pair"><label>YOUR NAME<input name="name" autocomplete="name" required></label><label>EMAIL ADDRESS<input name="email" type="email" autocomplete="email" required></label></div><label>PHONE NUMBER<input name="phone" type="tel" autocomplete="tel" required></label><label>DELIVERY ADDRESS<input name="address" autocomplete="street-address" required></label><div class="form-pair"><label>CITY<input name="city" autocomplete="address-level2" required></label><label>STATE<input name="state" autocomplete="address-level1"></label></div><label>PINCODE<input name="pincode" inputmode="numeric" autocomplete="postal-code" required></label><div class="checkout-total"><span>Total · delivery included</span><b id="checkout-total">₹0</b></div><button class="button button-dark checkout-submit" type="submit">Pay securely <span>↗</span></button><p class="form-message" id="checkout-message" aria-live="polite"></p><div class="secure-note">PAYMENT SECURED BY RAZORPAY</div></form></section></div>
+
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>

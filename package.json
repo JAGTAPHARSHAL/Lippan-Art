@@ -1,0 +1,8 @@
+{
+  "name": "mitti-mirror-lippan-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An India-first Lippan art storefront with Razorpay checkout and order tracking.",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}
